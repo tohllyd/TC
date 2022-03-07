@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  color: #000;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+/**********************************/
+/****    HEADINGS   *************/
+/**********************************/
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 28px;
+}
+/**********************************/
+/****    NAVIGATION   *************/
+/**********************************/
+.navigation {
+  width: 15%;
+  padding-left: 30px;
+  height: 100vh;
+  float: left;
+  padding-top: 25px;
+  background-color: #fff;
+  position: fixed;
+}
+/*
+a:link
+a:visited
+a:hover
+a:active
+*/
+.menu-1 {
+  padding-top: 20px;
+}
+.menu-2 {
+  padding-top: 30px;
+}
+.menu-1 ul {
+  list-style: none;
+}
+.menu-2 ul {
+  list-style: none;
+}
+.menu-1 li {
+  font-size: 17px;
+}
+.menu-2 li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.menu-1 li a:link,
+.menu-1 li a:visited {
+  padding-top: 7px;
+  text-decoration: none;
+  color: #a5a5a5;
+}
+.menu-1 li a:hover,
+.menu-1 li a:active {
+  padding-top: 7px;
+  color: #09d114;
+}
+
+.menu-2 li a:link,
+.menu-2 li a:visited {
+  padding-top: 7px;
+  text-decoration: none;
+  color: #a5a5a5;
+}
+.menu-2 li a:hover,
+.menu-2 li a:active {
+  padding-top: 7px;
+  color: #09d114;
+}
+/**********************************/
+/****    MAIN SECTION   **********/
+/**********************************/
+
+.main-section {
+  width: 60%;
+  float: left;
+  padding-top: 30px;
+  position: relative;
+  margin-left: 15%;
+}
+.main-view {
+  float: left;
+  height: 80vh;
+  width: 70%;
+}
+
+.main-view h1 {
+  display: block;
+  font-size: 32px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+.main-view h1 a:link,
+.main-view h1 a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.authors-name:link,
+.authors-name:visited {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+.authors-name:hover,
+.authors-name:active {
+  color: #09d114;
+}
+.image-main {
+  width: 95%;
+  height: auto;
+}
+.mini-view {
+  float: left;
+  width: 30%;
+  height: 80vh;
+}
+/**********************************/
+/*******   MINI-VIEW   ***********/
+/*********************************/
+
+.mini-view_header {
+  font-size: 18px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+.mini-view_header a {
+  color: #000;
+  text-decoration: none;
+}
+.mini-view div {
+  border-bottom: #e7e7e7 solid 1px;
+  margin-bottom: 10px;
+}
+.mini-view div:last-of-type {
+  border-bottom: none;
+}
+
+/**********************************/
+/*******     SIDEBAR    ***********/
+/**********************************/
+
+.sidebar {
+  width: 25%;
+  float: left;
+  background-color: beige;
+}
+/**********************************/
+/****    reuseable     ***********/
+/**********************************/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
